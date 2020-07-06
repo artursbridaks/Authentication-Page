@@ -1,0 +1,248 @@
+.white-frame-login {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 62%;
+    left: 49.5%;
+    background-color: white;
+    box-shadow: 0 0 2px 1px white, 1px 0 2px 1px black;
+}
+
+@keyframes left-animation {
+    to {
+        left: 280px;
+    }
+}
+
+@keyframes right-animation {
+    from {
+        left: 280px;
+    }
+    to {
+        right: 280px;
+    }
+}
+
+.white-frame-content-login {
+    position: relative;
+    top: 17%;
+    left: 20%;
+}
+
+@keyframes hidden-animation {
+    0% {
+        opacity: 1;
+        visibility: visible;
+    }
+    50% {
+        opacity: 0.5;
+        visibility: visible;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+@keyframes visible-animation {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+    50% {
+        opacity: 0.5;
+        visibility: hidden;
+    }
+    100% {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+#login-header {
+    color: #6c6c6c;
+    font-size: 24px;
+}
+
+#login-picture {
+    position: relative;
+    top: -35px;
+    left: 51%;
+}
+
+#login-line {
+    border: solid #4bb9f8 1px;
+    position: relative;
+    top: -35px;
+    width: 10%;
+    right: 45%;
+}
+
+.login-form {
+    color: #859cb6;
+    position: relative;
+    top: -30px;
+}
+
+#login-email {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #859cb6;
+    width: 60%;
+}
+
+.required {
+    color: #dc7800;
+}
+
+#login-password {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #859cb6;
+    width: 60%;
+}
+
+.email-picture {
+    position: relative;
+    left: 44%;
+}
+
+.password-picture {
+    position: relative;
+    left: 37.5%;
+}
+
+#login-button {
+    width: 30%;
+    height: 3rem;
+    position: relative;
+    top: 12px;
+    opacity: 1;
+    color: white;
+    background-color: #ef862a;
+    border-radius: 20px;
+    border-color: #ef862a;
+}
+
+#login-button:hover {
+    background-color: #de7610;
+}
+
+.white-frame-content-register {
+    visibility: hidden;
+    position: relative;
+    top: -65%;
+    left: 20%;
+}
+
+@media (min-width: 1400px) {
+    .white-frame-content-register {
+        visibility: hidden;
+        position: relative;
+        top: -25%;
+        left: 20%;
+    }
+}
+
+@keyframes hidden-animation2 {
+    0% {
+        opacity: 0;
+        visibility: hidden;
+    }
+    50% {
+        opacity: 0.5;
+        visibility: hidden;
+    }
+    100% {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@keyframes visible-animation2 {
+    0% {
+        opacity: 1;
+        visibility: visible;
+    }
+    50% {
+        opacity: 0.5;
+        visibility: hidden;
+    }
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+#register-header {
+    color: #6c6c6c;
+    font-size: 24px;
+}
+
+#register-picture {
+    position: relative;
+    top: -35px;
+    left: 51%;
+}
+
+#register-line {
+    border: solid #4bb9f8 1px;
+    position: relative;
+    top: -35px;
+    width: 10%;
+    right: 45%;
+}
+
+.register-form {
+    color: #859cb6;
+    position: relative;
+    top: -30px;
+}
+
+#register-name {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #859cb6;
+    width: 60%;
+}
+
+#register-email {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #859cb6;
+    width: 60%;
+}
+
+#register-password {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #859cb6;
+    width: 60%;
+}
+
+.name-picture {
+    position: relative;
+    left: 44%;
+}
+
+#register-button {
+    width: 30%;
+    height: 3rem;
+    position: relative;
+    top: 12px;
+    opacity: 1;
+    color: white;
+    background-color: #ef862a;
+    border-radius: 20px;
+    border-color: #ef862a;
+}
+
+#register-button:hover {
+    background-color: #de7610;
+}

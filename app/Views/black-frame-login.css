@@ -1,0 +1,90 @@
+.black-frame-register {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 62%;
+    height: 55%;
+    background-color: #131823;
+    opacity: 0.9;
+    color: white;
+    box-shadow: 0 0 2px 1px black;
+}
+
+.black-frame-content-register {
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 24%;
+}
+
+#header {
+    font-size: 24px;
+}
+
+#line {
+    border: solid #4bb9f8 1px;
+    position: relative;
+    width: 4%;
+    right: 48%;
+}
+
+#text {
+    word-wrap: break-word;
+    width: 40%;
+    line-height: 2rem;
+}
+
+#sign-up-button {
+    width: 20%;
+    height: 3rem;
+    position: relative;
+    top: 10px;
+    opacity: 1;
+    color: white;
+    border-radius: 20px;
+    border-color: #4bb9f8;
+}
+
+#sign-up-button:hover {
+    background-color: #4bb9f8;
+}
+
+
+.black-frame-content-login {
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 54%;
+}
+
+#header-login {
+    font-size: 24px;
+}
+
+#line-login {
+    border: solid #4bb9f8 1px;
+    position: relative;
+    width: 10%;
+    right: 44%;
+}
+
+#text-login {
+    word-wrap: break-word;
+    width: 60%;
+    line-height: 2rem;
+}
+
+#sign-up-button-login {
+    width: 40%;
+    height: 3rem;
+    /*top: 60px;*/
+    /*left: 580%;*/
+    opacity: 1;
+    color: white;
+    border-radius: 20px;
+    border-color: #4bb9f8;
+}
+
+#sign-up-button-login:hover {
+    background-color: #4bb9f8;
+}
