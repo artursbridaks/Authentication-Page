@@ -1,8 +1,9 @@
 **Authentication web page**
 
-Fully working authentication page written in plain PHP. In the beginning there were a PSD files which had visual 
-representation of final product from which then I created the page from the ground up. Everything in this project 
-is created from beginning - HTML, CSS, JavaScript functions, MySQL databases (many to many relationships) and plain PHP.
+Fully working authentication page written in plain PHP. In the beginning, there were PSD files which had a visual
+representation of the final product from which then I created the page from the ground up. Everything in this project 
+is created from the beginning - HTML, CSS, JavaScript functions, MySQL databases (many to many relationships) and plain
+PHP.
 
 **Introduction**
 
@@ -11,7 +12,7 @@ To run the site:
 * Clone the app to your local machine
 * Approach 1 (won't be able to log in):
     * Open the terminal from the project folder and enter:
-        * php -S localhost:8000
+        * PHP -S localhost:8000
             * Click on the link (the browser should open automatically)
 * Approach 2 (will be able to log in): 
     * Open the project on PhpStorm
@@ -19,10 +20,10 @@ To run the site:
             * Columns:
                 * id (int, not null, auto inc, primary key)
                 * username (varchar, not null)
-                * email (varchar, not null)
+                * Email (varchar, not null)
                 * password (varchar, not null)
         * Open then inner terminal and enter:
-            * php -S localhost:8000
+            * PHP -S localhost:8000
                 * Click on the link (the browser should open automatically)
                 
 **Visual representation**
@@ -32,7 +33,7 @@ To run the site:
 **Project overview**
 
 * PSD to HTML/CSS:
-    * Only the general idea were taken from the PSD files
+    * Only the general idea was taken from the PSD files
     * Background picture and logos were extracted using GIMP
 * JavaScript:
     * Incorporated to power the dynamic div element movements
@@ -42,8 +43,8 @@ To run the site:
     * Two profiles with one email can't exist
 * Full picture:
     * User registers and is able to login into profile using the same page
-    * The "Dashboard" page is not accessible to user which is not logged in
-    * Login session is ended when the user logs out using "Log Out" button.
+    * The "Dashboard" page is not accessible to the user which is not logged in
+    * Login session is ended when the user logs out using the "Log Out" button.
     
 **Improvements**
 
